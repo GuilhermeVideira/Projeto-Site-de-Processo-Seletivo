@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/TelaPergunta.css">
+    <link rel="shortcut icon" href="./imagens2/imagensTelaLogin/DinoCode.png" type="image/x-icon"> 
+
+    
+
+    <title> Vestibulinho Etec </title>
+
+</head>
+<body>
+    <script>
+        const respostas = [];
+    
+        function coletarResposta(perguntaIndex, proximaPergunta) {
+            const opcoes = document.getElementsByName("opcao");
+            let resposta = "";
+            for (const opcao of opcoes) {
+                if (opcao.checked) {
+                    resposta = opcao.value;
+                    break;
+                }
+            }
+            
+            if (resposta === "") {
+                alert("Selecione uma opção.");
+            } else {
+                respostas[perguntaIndex] = resposta;
+                window.location.href = proximaPergunta;
+            }
+        }
+    </script>
+    
+   <a href="TelaPrincipal.html">
+
+    <div class="BotaoVoltar">
+        <img src="./imagens/imagensTelaCalendario/BotaoVoltar.png" alt="ImagemBotãoVoltar" class="imagem-rotacionada" />
+    </div>
+    
+   <span class="texto01">
+   <h6> Sair do Quiz </h6>
+   </span>
+
+   </a>
+
+   <br> <br> 
+
+   <center>
+
+   <img src="./imagens/imagensTelaQuiz/Pergunta 3.png" height="70px" width= "400px" alt="ImagemTitulo"/>
+
+   <br><br><br><br>
+
+   <img src="./imagens/imagensTelaQuiz/Group 21 (3).png" height="50px" width= "520px" alt="ImagemDeInformação"/>
+
+   <br><br><br>
+   <div class="quadrado">
+    <form>
+        <label>
+            <input type="radio" name="opcao" value="opcao1"> Ciências exatas ou engenharia
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="opcao" value="opcao2"> Ciências humanas ou sociais
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="opcao" value="opcao3"> Ciências biológicas ou ciências da saúde
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="opcao" value="opcao4"> Ciências Estatísticas
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="opcao" value="opcao5"> Linguística, letras e artes
+        </label>
+    </form>
+    </div>
+
+   </center>
+
+   <br><br> 
+   <div class="dinocode">
+   <img src="./imagens/imagensTelaQuiz/Cópia_de_Logo_soluções_em_técnico_de_informática_azul_e_verde_água_-removebg-preview 2.png" height="90px" width= "100px" alt="ImagemTitulo"/>
+    </div>
+
+   <br><br><br><br><br>
+   
+   <a href="TelaPergunta02.html">
+    <button class="botao2">Anterior</button>
+    </a>
+
+    <button class="botao" onclick="coletarResposta(0, 'TelaPergunta04.html')">Próxima Pergunta</button>
+
+   <br><br><br><br>
+
+   <script src="./js/Quiz.js"></script>
+
+</body>
+</html>

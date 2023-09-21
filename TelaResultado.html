@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/TelaResulatdo.css">
+    <link rel="shortcut icon" href="./imagens2/imagensTelaLogin/DinoCode.png" type="image/x-icon"> 
+   
+
+
+    <title> Vestibulinho Etec </title>
+
+</head>
+<body>
+    <script>
+        const respostas = [];
+    
+        function coletarResposta(perguntaIndex, proximaPergunta) {
+            const opcoes = document.getElementsByName("opcao");
+            let resposta = "";
+            for (const opcao of opcoes) {
+                if (opcao.checked) {
+                    resposta = opcao.value;
+                    break;
+                }
+            }
+            
+            if (resposta === "") {
+                alert("Selecione uma opção.");
+            } else {
+                respostas[perguntaIndex] = resposta;
+                window.location.href = proximaPergunta;
+            }
+        }
+    </script>
+    
+  
+    
+   <a href="TelaPrincipal.html">
+
+    <div class="BotaoVoltar">
+        <img src="./imagens/imagensTelaCalendario/BotaoVoltar.png" alt="ImagemBotãoVoltar" class="imagem-rotacionada" />
+    </div>
+    
+   <span class="texto01">
+   <h6> Sair do Quiz </h6>
+   </span>
+
+   </a>
+
+   <br> <br>   <br>  <br>
+
+   <center>
+
+   <img src="./imagens/imagensTelaQuiz//Resultado.png" height="70px" width= "400px" alt="ImagemTitulo"/>
+
+   <br><br>
+
+   <br><br> 
+   <div class="dinocode">
+   <img src="./imagens/imagensTelaQuiz/Cópia_de_Logo_soluções_em_técnico_de_informática_azul_e_verde_água_-removebg-preview 2.png" height="90px" width= "100px" alt="ImagemTitulo"/>
+    </div>
+
+   <div class="quadrado">
+   <div class="comentario">
+   <h3> Com base nos dados coletados, o curso mais adequado para seu perfil é:</h3>
+   <br>
+   <div id="recomendacao"></div>
+   </div>
+    </div>
+
+   </center>
+
+   <br><br><br><br><br>
+   
+   <a href="TelaPrincipal.html">
+   <button class="botao">Finalizar</button>
+   </a>
+
+   <br><br><br><br>
+
+   <script src="./js/Quiz.js"></script>
+
+</body>
+</html>
