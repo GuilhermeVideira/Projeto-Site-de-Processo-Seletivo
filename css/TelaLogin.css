@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #F8F8F8;
+}
+
+.BotaoVoltar{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+
+.imagem-rotacionada {
+    transition: transform 0.9s ease; 
+}
+
+.imagem-rotacionada:hover {
+    transform: rotate(360deg); 
+}
+
+.texto01  {
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+} 
+
+a {
+    text-decoration: none;
+}
+
+.aluno {
+    left: 370px;
+    position: absolute;
+ }
+
+ .professor {
+    left: 700px;
+    position: absolute;
+ }
+
+.email {
+    left: 460px;
+    position: absolute;
+ }
+
+ .styled-input {
+    width: 200%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ECECEC;
+    border-radius: 5px;
+    background-color: #ECECEC;
+    color: #333;
+    transition: border-color 0.3s, background-color 0.3s;
+  
+    &:hover {
+      border-color: #00A0E8;
+      background-color: #e9efff8f;
+    }   
+  
+    &:focus {
+      border-color: #00A0E8;
+      background-color: #e9efff8f;
+      outline: none;
+    }
+}
+
+ .email2 {
+    left: 460px;
+    position: absolute;
+ }
+
+.senha{
+    left: 734px;
+    position: absolute;
+}
+
+.cadastro{
+    left: 504px;
+    position: absolute;
+}
+
+.EntrarGogle{
+    left: 464px;
+    position: absolute;
+}
+
+.EntrarFacebook{
+    left: 464px;
+    position: absolute;
+}
+
+.input-box {
+    display: flex;
+    flex-direction:column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 10.0rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    background-color: #ECECEC;
+}
+
+.input-box input:hover {
+    background-color: #e9efff8f;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.texto02  {font-family: Arimo Hebrew Subset; 
+    color: #006895;
+    font-size: 15px
+} 
+
+.texto02 :hover{
+    color: #f22727;
+}
+
+.EntrarGogle:hover{
+    transform: scale(1.03); 
+}
+
+.EntrarFacebook :hover{
+    transform: scale(1.1); 
+}
+
+.Entrar :hover{
+    transform: scale(1.1); 
+}
+
+.aluno :hover{
+    transform: scale(1.02); 
+}
+
+.professor :hover{
+    transform: scale(1.02); 
+}

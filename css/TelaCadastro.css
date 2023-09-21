@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #F8F8F8;
+}
+
+.BotaoVoltar{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+
+.imagem-rotacionada {
+    transition: transform 0.9s ease; 
+}
+
+.imagem-rotacionada:hover {
+    transform: rotate(360deg); 
+}
+
+.texto01  {
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+} 
+
+.container {
+    border: 0.02px solid #333;
+    width: 900px; 
+    height: 430px; 
+    padding: 10px;
+}
+
+.nome{
+    top: 280px;
+    left: 340px;
+    position: absolute;
+}
+
+.inputnome{
+    top: 319px;
+    left: 340px;
+    position: absolute;
+}
+
+.data{
+    top: 280px;
+    left: 800px;
+    position: absolute;
+}
+
+.inputnemail{
+    top: 319px;
+    left: 800px;
+    position: absolute;
+}
+
+.email{
+    top: 425px;
+    left: 340px;
+    position: absolute;
+}
+
+.email2{
+    top: 465px;
+    left: 340px;
+    position: absolute;
+}
+
+.senha{
+    top: 425px;
+    left: 800px;
+    position: absolute;
+}
+
+.senha2{
+    top: 465px;
+    left: 800px;
+    position: absolute;
+}
+
+.styled-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ECECEC;
+    border-radius: 5px;
+    background-color: #ECECEC;
+    color: #333;
+    transition: border-color 0.3s, background-color 0.3s;
+  
+    &:hover {
+      border-color: #00A0E8;
+      background-color: #FFFFFF;
+    }   
+  
+    &:focus {
+      border-color: #00A0E8;
+      background-color: #FFFFFF;
+      outline: none;
+    }
+}
+
+.botao{
+    background-color: #F28627;
+    color: white;
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 150px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #fcaa62;
+    transform: scale(1.03);
+}

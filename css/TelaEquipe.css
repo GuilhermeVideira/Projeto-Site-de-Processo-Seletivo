@@ -1,0 +1,379 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #F8F8F8;
+}
+
+.BotaoVoltar{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+
+.imagem-rotacionada {
+    transition: transform 0.9s ease; 
+}
+
+.imagem-rotacionada:hover {
+    transform: rotate(360deg); 
+}
+
+.texto01  {
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+} 
+
+.texto02{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 180px;
+    left: 250px;
+    position: absolute;
+}
+
+.texto03{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 180px;
+    left: 575px;
+    position: absolute;
+}
+
+.texto04{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 180px;
+    left: 920px;
+    position: absolute;
+}
+
+.texto05{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 180px;
+    left: 1270px;
+    position: absolute;
+}
+
+.texto06{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 250px;
+    position: absolute;
+}
+
+
+.texto07{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 575px;
+    position: absolute;
+}
+
+
+.texto08{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 900px;
+    position: absolute;
+}
+
+
+.texto09{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 1270px;
+    position: absolute;
+}
+
+.texto10{
+    color: #000;
+    font-family: Armata;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 191px;
+    position: absolute;
+}
+
+.texto11{
+    color: #000;
+    font-family: Armata;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 532px;
+    position: absolute;
+}
+
+.texto12{
+    color: #000;
+    font-family: Armata;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 899px;
+    position: absolute;
+}
+
+.texto13{
+    color: #000;
+text-align: center;
+font-family: Arimo Hebrew Subset;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    left: 1215px;
+    position: absolute;
+}
+
+.foto1{
+    top: 220px;
+    left: 190px;
+    position: absolute;
+}
+
+.foto2{
+    top: 220px;
+    left: 508px;
+    position: absolute;
+}
+
+.foto3{
+    top: 220px;
+    left: 843px;
+    position: absolute;
+}
+
+.foto4{
+    top: 220px;
+    left: 1193px;
+    position: absolute;
+}
+
+.foto5{
+    left: 190px;
+    position: absolute;
+}
+
+.foto6{
+    left: 508px;
+    position: absolute;
+}
+
+.foto7{
+    left: 843px;
+    position: absolute;
+}
+
+.foto8{
+    left: 1193px;
+    position: absolute;
+}
+
+.texto14{
+    left: 240px;
+    position: absolute;
+}
+
+.foto15{
+    left: 508px;
+    position: absolute;
+}
+
+.foto16{
+    left: 843px;
+    position: absolute;
+}
+
+.foto17{
+    left: 1193px;
+    position: absolute;
+}
+
+.foto1 :hover{
+    transform: scale(1.07); 
+}
+
+.foto2 :hover{
+    transform: scale(1.07); 
+}
+
+.foto3 :hover{
+    transform: scale(1.07); 
+}
+
+.foto4 :hover{
+    transform: scale(1.07); 
+}
+
+.foto5 :hover{
+    transform: scale(1.07); 
+}
+
+.foto6 :hover{
+    transform: scale(1.07); 
+}
+
+.foto7 :hover{
+    transform: scale(1.07); 
+}
+
+.foto8 :hover{
+    transform: scale(1.07); 
+}
+
+.foto9 :hover{
+    transform: scale(1.07); 
+}
+
+.linha-horizontal {
+    border: 0.0 1px solid #000; 
+    margin: 1px 0; 
+}
+
+.texto14{
+    color: #000;
+    font-family: Armata;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 241px;
+    position: absolute;
+}
+
+.texto15{
+    color: #000;
+    font-family: Armata;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 550px;
+    position: absolute;
+}
+
+.texto16{
+    color: #000;
+    font-family: Armata;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 869px;
+    position: absolute;
+}
+
+.texto17{
+    color: #000;
+text-align: center;
+font-family: Arimo Hebrew Subset;
+font-size: 26px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    left: 1239px;
+    position: absolute;
+}
+
+.Logo{
+    left: 409px;
+    position: absolute;
+}
+
+.Instagram{
+    left: 499px;
+    position: absolute;
+}
+
+.TikTok{
+    top: 926px;
+    left: 499px;
+    position: absolute;
+}
+
+.texto07{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 552px;
+    position: absolute;
+}
+
+
+.texto90{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 943px;
+    left: 552px;
+    position: absolute;
+}
+
+
+.Email{
+    top: 890px;
+    left: 719px;
+    position: absolute;
+}
+
+.texto99{
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 782px;
+    position: absolute;
+}
+

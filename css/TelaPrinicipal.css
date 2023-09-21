@@ -1,0 +1,75 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #F8F8F8;
+}
+
+.BotaoVoltar{
+    top: 30px;
+    left: 30px;
+    position: absolute;
+}
+
+.imagem-rotacionada {
+    transition: transform 0.9s ease; 
+}
+
+.imagem-rotacionada:hover {
+    transform: rotate(360deg); 
+}
+
+.texto01  {
+    color: #000;
+    font-family: Armata;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+} 
+
+.opc1{
+    left: 100px;
+    position: absolute;
+}
+
+.opc2{
+    left: 525px;
+    position: absolute;
+}
+
+.opc3{
+    left: 990px;
+    position: absolute;
+}
+
+.opc4{
+    left: 300px;
+    position: absolute;
+}
+
+.opc5{
+    left: 800px;
+    position: absolute;
+}
+
+.opc1 :hover{
+    transform: scale(1.07); 
+}
+
+.opc2 :hover{
+    transform: scale(1.07); 
+}
+
+.opc3 :hover{
+    transform: scale(1.07); 
+}
+
+.opc4 :hover{
+    transform: scale(1.07); 
+}
+
+.opc5 :hover{
+    transform: scale(1.07); 
+}
