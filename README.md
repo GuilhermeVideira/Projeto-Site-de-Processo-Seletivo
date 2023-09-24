@@ -36,6 +36,7 @@ Ao primeiro dia foi divulgado as equipes e o desenvolvimento das redes socias, l
 <img align="center" alt="Imagem do Slide 11" src="https://github.com/GuilhermeVideira/Projeto-Site-de-Processo-Seletivo/blob/main/Imagens%20dos%20Slides/Slide%2011.jpeg?raw=true" />
 
 </center>
+
 #
 
 ### Linguagens de programação que utilizei no projeto:
