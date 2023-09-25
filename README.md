@@ -43,7 +43,7 @@ Ao primeiro dia foi divulgado as equipes e o desenvolvimento das redes socias, l
    <img alt="Tik Tok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" target="_blank">
    </a> 
 
- <a href="codemanagers.etec@gmail.com" target="_blank">
+ <a href="mailto:codemanagers.etec@gmail.com" target="_blank">
    <img alt="E-mail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
    </a> 
    
