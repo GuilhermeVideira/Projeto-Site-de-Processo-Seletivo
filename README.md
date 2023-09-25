@@ -37,6 +37,15 @@ Ao primeiro dia foi divulgado as equipes e o desenvolvimento das redes socias, l
   <a href="https://www.instagram.com/code.managers?igshid=MzMyNGUyNmU2YQ==" target="_blank">
    <img alt="Instagram" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank">
    </a> 
+
+   
+  <a href="https://www.tiktok.com/@code.managers?_t=8fna8QXb0I1&_r=1" target="_blank">
+   <img alt="Tik Tok" src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" target="_blank">
+   </a> 
+
+ <a href="codemanagers.etec@gmail.com" target="_blank">
+   <img alt="E-mail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank">
+   </a> 
    
 #
 
